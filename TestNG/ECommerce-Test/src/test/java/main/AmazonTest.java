@@ -39,12 +39,12 @@ public class AmazonTest {
     	signInLink.click();
     	
     	WebElement emailField = driver.findElement(By.id("ap_email"));
-    	emailField.sendKeys("palanivijay25@gmail.com");
+    	emailField.sendKeys("email");
     	WebElement continueButton = driver.findElement(By.id("continue"));
     	continueButton.click();
     	
     	WebElement passwordField = driver.findElement(By.id("ap_password"));
-    	passwordField.sendKeys("HelloVijay2021");
+    	passwordField.sendKeys("password");
     	WebElement signInButton = driver.findElement(By.id("signInSubmit"));
     	signInButton.click();
 
